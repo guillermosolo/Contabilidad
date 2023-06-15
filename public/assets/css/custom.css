@@ -1,0 +1,64 @@
+label.requerido:after {
+    content: "*";
+    color: #e73d4a;
+}
+
+.btn-accion-tabla {
+    cursor: pointer;
+    border: none;
+    background: 0;
+    padding: 0 0 0 5px;
+    font-size: 14px !important;
+    line-height: 1.5;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Seleccionar";
+}
+
+.disabled {
+    pointer-events: none !important;
+    cursor: default;
+    opacity: 0.6 !important;
+}
+
+.login-page {
+    background: url("../img/fondo2.jpeg") repeat center center fixed !important;
+    background-size: 25% !important;
+}
+
+@media only screen and (min-width: 100px) {
+    .fondo {
+        opacity: 0.2;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .fondo {
+        opacity: 0.2;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .fondo {
+        opacity: 0.2;
+        height: 585px;
+    }
+
+    .content-wrapper,
+    .right-side,
+    .main-footer {
+        margin-left: 375px !important;
+    }
+    .main-header,
+    .navbar {
+        margin-left: 375px !important;
+    }
+
+    .main-sidebar,
+    .left-side {
+        width: 375px;
+    }
+}
